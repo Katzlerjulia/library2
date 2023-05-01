@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Julias Bibliotek</title>
+</head>
+<body>
+  <div class="navbar">
+  <a href="index.html" class="logo">Julias Bibliotek</a>
+  <div class="navlinks">
+    <a href="index.html">Hem</a>
+    <a href="#">Böcker</a>
+  </div>
+</div>
+<div class="bg_image">
+  <div class="backgroundcolor">
+  <h1 class="välkommen">Välkommen till mitt bibliotek. Här kan du låna böcker, se vilka böcker vi har, lägga till nya böcker och mycket mer!</h1>
+  <h2 class="välkommen">Du kanske vill börja med att chatta med någon?</h2>
+ <h1 class="välkommen">Chatta:</h1>
+<form id="message-form" method="GET">
+  <input type="text" name="message" placeholder="Skriv ett meddelande...">
+  <button type="submit">Skicka</button>
+</form>
+<div id="messages"></div>
+  </div>
+</div>
+ <script src="/socket.io/socket.io.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
